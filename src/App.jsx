@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import UncontrolledExample from './Carousel.jsx'
 import BasicExample from './Card.jsx'
-
+import image from './assets/lx.jpg'; 
 import './App.css'
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
 <div className="parallax1" style={{height:'600px',fontSize:'36px'}}>
 <img src="https://th.bing.com/th/id/R.1acf1e19c617db034cf9d8d07a54186f?rik=Jeb4ziWjwQMuRw&riu=http%3a%2f%2fwww.hdwallpaper.nu%2fwp-content%2fuploads%2f2015%2f12%2fLexus-Logo-Wallpaper-2022.png&ehk=Zspa3r%2fxG%2fAcfzFgIiiBVCY8TFiPzN8TRukEZaqSGhk%3d&risl=&pid=ImgRaw&r=0" alt="" style={{width:'200px', height:'200px', padding:'30px'}} />
 </div>
-<div className="parallax">
+<div className="parallax" >
 <div className="parallax1"></div> 
 </div>
 
